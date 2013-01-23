@@ -12,5 +12,6 @@ web/bundles/*
 app/config/parameters.ini
 app/config/parameters.yml
 
+composer.phar
 
 /nbproject/*
