@@ -1,3 +1,9 @@
+_welcome:
+    pattern:   /{culture}
+    defaults:  { _controller: NcaJazzBundle:Default:index, name: oliv, culture: fr }
+    requirements:
+        culture:  en|fr
+    
 nca_jazz:
     resource: "@NcaJazzBundle/Resources/config/routing.yml"
     prefix:   /jazz

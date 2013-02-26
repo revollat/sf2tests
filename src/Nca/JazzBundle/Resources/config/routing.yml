@@ -1,3 +1,12 @@
 nca_jazz_homepage:
     pattern:  /hello/{name}
-    defaults: { _controller: NcaJazzBundle:Default:index }
+    defaults: { _controller: NcaJazzBundle:Default:index, name: oliv2 }
+nca_jazz_create:
+    pattern:  /create
+    defaults: { _controller: NcaJazzBundle:Default:create }
+nca_jazz_show:
+    pattern:  /show/{id}
+    defaults: { _controller: NcaJazzBundle:Default:show }
+nca_jazz_show_all:
+    pattern:  /show-all
+    defaults: { _controller: NcaJazzBundle:Default:showAll }
