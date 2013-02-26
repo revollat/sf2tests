@@ -1,6 +1,6 @@
 nca_jazz:
     resource: "@NcaJazzBundle/Resources/config/routing.yml"
-    prefix:   /
+    prefix:   /jazz
 
 # Internal routing configuration to handle ESI
 # ****** WARNING ******
